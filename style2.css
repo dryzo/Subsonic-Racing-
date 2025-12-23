@@ -1,0 +1,126 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 10px 10px 10px 10px ;
+    text-decoration: none;
+    background-color: #ffffff;
+    
+
+
+}
+body {
+ 
+    background-color: #000000;
+  
+    
+}
+li, h1,  h2, p {
+    font-family: 'Arial', sans-serif;
+    text-decoration: none;
+    text-overflow: none;
+    
+    color: #ffffff;
+
+}
+a{
+    text-decoration: none;
+    color: #3265dc;
+}
+.Nav_Links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#home {
+    
+    
+    text-align: center;
+    padding: 50px 1px;
+    
+}
+#about {
+    text-align: left;
+    
+    width: 50%;
+    padding: 50px 50px;
+}
+#contact {
+    
+    text-align: left;
+    padding: 50px 50px;
+    
+}
+
+#contact p{
+    transition: transform 2s ease;
+    
+    
+}
+#contact:hover p{
+    
+    
+    
+    
+    transform: translateX(100px) scale(1.2);
+    
+    
+}
+
+
+.LOGO2 {
+    display: flex;
+    justify-content: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
+}
+.LOGO3 {
+    display: flex;
+    justify-content: start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 10%;
+    
+    
+}
+#safcom{
+    transition: transform 2s ease;
+}
+#tia{
+    transition: transform 2s ease;
+}
+#owen{
+    transition: transform 2s ease;
+}
+#ecu{
+    transition: transform 2s ease;
+}
+#bunnings{
+    transition: transform 2s ease;
+}
+
+#safcom:hover{
+    transform: scale(1.2);
+}
+#tia:hover{
+    transform: scale(1.2);
+}
+#owen:hover{
+    transform: scale(1.2);
+}
+#ecu:hover{
+    transform: scale(1.2);
+}
+#bunnings:hover{
+    transform: scale(1.2);
+}
+#SUBSONIC{
+    transition: transform 2s ease;
+}
+#SUBSONIC:hover{
+    transform: scale(1.2);
+}
