@@ -51,7 +51,25 @@ a{
     
     text-align: left;
     padding: 50px 50px;
+    
 }
+
+#contact p{
+    transition: transform 2s ease;
+    
+    
+}
+#contact:hover p{
+    
+    
+    
+    
+    transform: translateX(100px) scale(1.2);
+    
+    
+}
+
+
 .LOGO2 {
     display: flex;
     justify-content: start;
@@ -68,4 +86,41 @@ a{
     padding: 40px 10%;
     
     
+}
+#safcom{
+    transition: transform 2s ease;
+}
+#tia{
+    transition: transform 2s ease;
+}
+#owen{
+    transition: transform 2s ease;
+}
+#ecu{
+    transition: transform 2s ease;
+}
+#bunnings{
+    transition: transform 2s ease;
+}
+
+#safcom:hover{
+    transform: scale(1.2);
+}
+#tia:hover{
+    transform: scale(1.2);
+}
+#owen:hover{
+    transform: scale(1.2);
+}
+#ecu:hover{
+    transform: scale(1.2);
+}
+#bunnings:hover{
+    transform: scale(1.2);
+}
+#SUBSONIC{
+    transition: transform 2s ease;
+}
+#SUBSONIC:hover{
+    transform: scale(1.2);
 }
